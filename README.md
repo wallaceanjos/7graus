@@ -8,5 +8,5 @@ O gerenciamento de pacotes com npm
 - ng s
 - ng test
 
-
+;]~
 

@@ -86,6 +86,19 @@
               </mat-card>
           </ng-container>
       </div>
+
+      <mat-divider></mat-divider>
+      <h1>Custom Elements</h1>
+      <ng-container *ngFor="let item of list; index as i;" >
+        <matcha-card name="item.results[0].name.first" avatar="item.results[0].picture.large">
+          <!-- <div slot="image">{{item.results[0].picture.large}}</div> -->
+          <div slot="first">{{item.results[0].name.first}}</div>
+          <div slot="email">{{item.results[0].email}}</div>
+          <div slot="phone">{{item.results[0].phone}}</div>
+        </matcha-card>
+      </ng-container>
+
+      
       <!-- <pre>
         {{list | json}}
       </pre> -->

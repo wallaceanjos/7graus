@@ -34,7 +34,9 @@
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/components/random-persons/random-persons.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,0 +1,75 @@
+.page-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.my-profile{
+  background:url('https://avatars.githubusercontent.com/u/40267629?v=4') no-repeat center center/cover;
+  margin-left:16px;
+}
+.my-profile-menu{
+  display: flex;
+}
+.my-links{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  svg{
+    display: flex;
+    margin-right:16px;
+  }
+  span{ 
+    display: flex;
+  }
+}
+.btn-lg{
+    font-size: 20px;
+    padding: 16px;
+    margin:16px;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.example-card {
+    max-width: 300px;
+    margin:16px auto;
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  .row{
+      flex-direction: row;
+      margin-bottom:24px;
+  }
+
+  .column {
+  flex-basis: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 1;
+  }
+  ._25 {
+    flex: 2.5;
+  }
+  ._5 {
+    flex: 5;
+  }
+
+  .example-card {
+    width: calc(20% - 48px);
+    margin:8px;
+  }
+}
